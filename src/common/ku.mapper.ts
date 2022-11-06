@@ -11,6 +11,7 @@ export type KU_STATE_TYPE = [
         },
     ],
 ];
+
 export const KU_DEFAULT_BEGIN_STATES_ACC: [
     ArrElement<KU_STATE_TYPE>[0],
     Partial<ArrElement<KU_STATE_TYPE>[1]>
